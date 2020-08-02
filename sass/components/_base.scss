@@ -1,0 +1,30 @@
+body {
+    background-color: $primary-background-color;
+    color: $primary-text-color;
+    font-family: $font-family;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+} 
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title {
+    margin: 0px;
+    padding: 0px;
+}

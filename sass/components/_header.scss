@@ -1,0 +1,110 @@
+.page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Logo */
+.logo-header {
+    display: block;
+    font-family: $font-family-logo;
+    color: $title-text-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo-web-header {
+    color: $accent-color;
+}
+/* Навигация */
+.site-nav {
+    padding: 0px;
+    margin-left: 83px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+
+    & a {
+        color: $title-text-color;
+        display: block;
+        padding-top: 37px;
+        padding-bottom: 30px;
+        transition: $transition-values;
+      }
+}
+.site-nav > .nav-box:not(:last-child) {
+    margin-right: 50px;
+}
+.site-nav .link {
+    display: block;
+    padding-top: 37px;
+    padding-bottom: 30px;
+    transition: $transition-values;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+
+    &.current {
+        color: $accent-color;
+    }
+}
+.nav-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  
+    color: $title-text-color;
+}
+.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accent-color;
+}
+/* Контакты */
+.contacts {
+    display: flex;
+    margin-left: auto;
+    font-style: normal;
+}
+.contacts a {
+    color: $title-text-color;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      fill: $accent-color;
+    }
+}
+.mail-box {
+    margin-right: 30px;
+}
+.icon-mail {
+    display: inline-block;
+    margin-right: 10px;
+    width: 16px;
+    height: 10px;
+}
+.icon-smartphone {
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 13px;
+}
