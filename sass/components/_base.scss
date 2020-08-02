@@ -28,3 +28,29 @@ html {
     margin: 0px;
     padding: 0px;
 }
+.section {
+    margin-top: 0px;
+    padding: 0px;
+
+    &-title {
+        padding: 0px;
+        margin-bottom: 50px;
+        margin-top: 0px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $title-text-color;
+      }
+}
+.portfolio-header {
+    margin-bottom: 94px;
+    outline: 1px solid #ECECEC;
+}
+.invisible-title {
+    opacity: 0;
+    margin: 0px;
+    padding: 0px;
+    height: 0px;
+}

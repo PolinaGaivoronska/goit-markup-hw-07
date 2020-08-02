@@ -1,0 +1,107 @@
+.section.team {
+    margin-bottom: 48px;
+    background-color: #F5F4FA;
+}
+.team-list {
+    display: flex;
+    padding-bottom: 140px;
+    padding-left: 0px;
+    margin: 0px;
+
+    & .title {
+        padding: 0px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: $title-text-color;
+    }
+}
+.team-box {
+    width: calc((100% - 90px) / 4);
+    padding-bottom: 24px;
+    background-color: $primary-background-color;
+    box-shadow: $regular-shadow;
+}
+.team-box:not(:last-child) {
+    margin-right: 30px;
+}
+.section-title.team {
+    padding-top: 40px;
+    margin-bottom: 64px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-photo {
+    margin-bottom: 30px;
+    border-radius: 4px 4px 0px 0px;
+}
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.title.team {
+    text-align: center;
+}
+.team-text {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.social-box {
+    display: flex;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.social-link-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: $icons-color;
+    
+    transition: $transition-values;
+
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+      color: $title-secondary-text-color;
+    }
+}
+.icon-instagram {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    color: inherit;
+}
+.icon-twitter {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    color: inherit;
+}
+.icon-facebook {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    color: inherit;
+}
+.icon-linkedin {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    color: inherit;
+}

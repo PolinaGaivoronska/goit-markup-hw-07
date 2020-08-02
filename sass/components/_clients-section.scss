@@ -1,0 +1,27 @@
+.section.clients {
+    margin-bottom: 94px;
+}
+.clients-list {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.clients-box:not(:last-child) {
+    margin-right: 30px;
+}
+.clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 170px;
+    border: 1px solid $icons-color; 
+    border-radius: 4px;
+    fill: $icons-color;
+    transition: $transition-values;
+
+    &:hover {
+        fill: $accent-color;
+        border: 1px solid $accent-color;
+    }
+}
